@@ -13,7 +13,7 @@ const mailSender = async (email, title, body, attachmentPath) => {
         });
 
         let mailOptions = {
-            from: 'IDC INDIA || info@idcindia.net', // Sender address
+            from: 'IDC INDIA || info@chathub.net', // Sender address
             to: `${email}`, // Recipient email
             subject: `${title}`, // Email subject
             html: `${body}`, // Email body in HTML format

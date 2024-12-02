@@ -26,10 +26,10 @@ const Footer = () => {
             <div className="w-[30%] flex flex-col gap-3 lg:w-[30%] mb-7 lg:pl-0 ">
               <h1 className="text-gray-100 font-bold text-4xl mb-5" >Chatting Hub</h1>
               <div className="flex lg:flex-row flex-col gap-5 text-2xl  lg:w-[14rem] w-10 justify-between">
-                <Link to="https://www.facebook.com/IdcIndiaOfficial/" className="hover:text-white"><FaFacebook /></Link>
-                <Link to="https://www.linkedin.com/company/idcindiaofficial/" className="hover:text-[#C131A3]"><FaLinkedin /></Link>
-                <Link to="https://x.com/idcindiaofficial" className="hover:text-blue-200"><FaTwitter /></Link>
-                <Link to="https://www.youtube.com/@idcindia." className="hover:text-[#1967D2]"><FaYoutube /></Link>
+                <Link to="https://www.facebook.com/chathubOfficial/" className="hover:text-white"><FaFacebook /></Link>
+                <Link to="https://www.linkedin.com/company/chathubofficial/" className="hover:text-[#C131A3]"><FaLinkedin /></Link>
+                <Link to="https://x.com/chathubofficial" className="hover:text-blue-200"><FaTwitter /></Link>
+                <Link to="https://www.youtube.com/@chathub." className="hover:text-[#1967D2]"><FaYoutube /></Link>
                 <Link to="https://discord.gg/EMC4KdUv" className="hover:text-[#8c2da1]"><FaDiscord /></Link>
               </div>
             </div>
